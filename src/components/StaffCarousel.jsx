@@ -14,7 +14,9 @@ function StaffCarousel({ staffData }) {
                 <Card.Img variant="top" src={staff.image} />
                 <Card.Body class="first-card">
                   <Card.Title className="name">{staff.name}</Card.Title>
-                  <Card.Text className="position">{staff.position}</Card.Text>
+                  <Card.Text className="position">{staff.bio}</Card.Text>
+                  <Card.Text className="position">{staff.technical_areas}</Card.Text>
+                  <Card.Text className="position">{staff.languages}</Card.Text>
                 </Card.Body>
                 <div class="back-card"></div>
                 <div class="thid-card"></div>
