@@ -16,27 +16,6 @@ function StaffCarousel({ staffData }) {
                 <Card.Body className='content'>
                   <Card.Title className="name">{staff.name}</Card.Title>
                   <Card.Text className="bio">{staff.bio}</Card.Text>
-
-                  {/* Render technical areas if available */}
-                  {staff.split_technical_areas && staff.split_technical_areas.length > 0 && (
-                    <div className="chip-list">
-                      {staff.split_technical_areas.map((area, i) => (
-                        <Badge key={i} className="chips-ta" pill bg="secondary" style={{ margin: '2px' }}>
-                          {area}
-                        </Badge>
-                      ))}
-                    </div>
-                  )}
-
-                  {staff.split_languages && staff.split_languages.length > 0 && (
-                    <div className="chip-list">
-                      {staff.split_languages.map((language, i) => (
-                        <Badge key={i} className="chips-lang" pill bg="info" style={{ margin: '2px' }}>
-                          {language}
-                        </Badge>
-                      ))}
-                    </div>
-                  )}
                 </Card.Body>
               </Card>
             ))}
