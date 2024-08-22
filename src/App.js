@@ -36,7 +36,7 @@ function App() {
         <div className="home-main">
           <h1>CS124Honors@Illinois</h1>
           <h2>
-            Illinois' premier freshman honors className run by students, for students.
+            Illinois' premier freshman honors class run by students, for students.
           </h2>
           <div className="home-buttons">
             <div className="button-1">

@@ -242,10 +242,42 @@ font-weight: bold;
   }
 
 /* Add this CSS to your stylesheet */
-.staff-card {
-  width: 100%; /* Default width */
-  max-width: 300px; /* Maximum width for larger screens */
-  margin: 0 auto; /* Center the card */
+
+
+
+/* Added CSS for staff card container */
+
+
+
+
+
+
+
+
+/* Added CSS for carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 2; /* Ensure controls are above the cards */
+}
+
+
+.chips-ta {
+  font-size: x-small;
+  margin: 10%;
+  background-color: #2d57b9;
+  color: rgb(255, 255, 255);
+}
+
+.chips-lang {
+  font-size: x-small;
+  margin: 10%;
+  background-color: #e56e15;
+  color: white;
+}
+
+// Card CSS
+.picture {
+  background-color: cyan;
 }
 
 @media (min-width: 576px) {
@@ -266,69 +298,132 @@ font-weight: bold;
   }
 }
 
-/* Added CSS for staff card container */
 .staff-card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-}
-
-.back-card{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width:400px;
-  height: 500px;
-  transition: transform .4s ease-in;
-  background: linear-gradient(270deg, rgb(255, 25, 195) 0%, rgb(0, 220, 255) 16%, rgb(122, 255, 0) 82%, rgb(0, 254, 207) 100%);
-  z-index: -1;
-  box-shadow: 0px 0px 112px -41px rgb(255, 25, 195), 0 -10px 26px -5px rgb(0, 220, 255),0px 0px 112px -41px rgb(122, 255, 0) , 0 -10px 26px -5px rgb(0, 254, 207);
-}
-.thid-card{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width:100px;
-  height: 200px;
-  transition: transform .4s ease-in;
-  background: linear-gradient(270deg, rgb(255, 25, 195) 0%, rgb(0, 220, 255) 16%, rgb(122, 255, 0) 82%, rgb(0, 254, 207) 100%);
-  z-index: -1;
-  box-shadow: 0px 0px 112px -41px rgb(255, 25, 195), 0 -10px 26px -5px rgb(0, 220, 255),0px 0px 112px -41px rgb(122, 255, 0) , 0 -10px 26px -5px rgb(0, 254, 207);
-}
-
-.card:hover .back-card{
-  transform: rotate(5deg);
-}
-.card:hover .thid-card{
-  transform: rotate(-5deg);
-}
-
-.first-card{
-  width:400px;
-  height: 500px;
-  background-color: #000;
-  position: relative;
-  text-align:center;
+  gap: 20px;
 }
 
 .staff-card {
   position: relative;
-  margin-top:50px;
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2), 0 10px 10px rgba(0,0,0,0.1);
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover:before {
+    transform: scale(1.05);
+  }
+
+  &:hover:after {
+    opacity: 1;
+  }
 }
 
-/* Added CSS for carousel controls */
-.carousel-control-prev,
-.carousel-control-next {
-  z-index: 2; /* Ensure controls are above the cards */
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  transition: transform 0.3s ease;
 }
 
 .name {
-  color: white;
+  font-size: 1.5rem;
   font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
 }
 
-.position {
+.bio {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
   color: white;
-  font-weight: bold;
+}
+
+.staff-card:hover .content {
+  transform: translateY(-50px);
+}
+
+.staff-card:hover .name {
+  transform: translateY(-20px);
+}
+
+.staff-card:hover .bio {
+  opacity: 1;
+  max-height: 200px;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.chip {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .staff-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 900px) {
+  .staff-card {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .staff-card {
+    width: calc(25% - 20px);
+  }
 }
