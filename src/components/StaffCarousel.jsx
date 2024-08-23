@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel, Card } from 'react-bootstrap';
-import imagePath from '../assets/RachaelWei.jpg';
 
 function StaffCarousel({ staffData }) {
   const itemsPerSlide = Math.min(Math.max(Math.floor(window.innerWidth / 300), 1), 4); // Optimal number of cards per slide based on screen width, with a max of 4
@@ -17,7 +16,9 @@ function StaffCarousel({ staffData }) {
           <div className="staff-card-container" style={{ display: 'flex', justifyContent: 'space-between', zIndex: 1 }}>
             {extendedStaffData.slice(slideIndex * itemsPerSlide, (slideIndex + 1) * itemsPerSlide).map((staff, index) => (
               <Card className="staff-card" key={index} style={{ flex: '1', margin: '0 10px', zIndex: 1 }}>
-                <Card.Img variant="top" src={imagePath} className="picture" />
+              <div className="image-container">
+                <Card.Img variant="top" src={`./images/${staff.picture}.jpg`} className="picture" />
+              </div>
                 <Card.Body className='content'>
                   <Card.Title className="name">{staff.name}</Card.Title>
                   <Card.Text className="bio">{staff.bio}</Card.Text>

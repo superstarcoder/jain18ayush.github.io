@@ -82,15 +82,18 @@ h2 {
 .home-buttons {
   margin: 3rem 0;
   display: flex;
-  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
-.button-2 {
-  margin-left: 1.5rem;
+.button-2, .button-3 {
+  margin-left: 0;
 }
 
-.button-3 {
-  margin-left: 1.5rem;
+.button-1, .button-2, .button-3 {
+  width: 100%;
+  max-width: 300px;
 }
 
 button {
@@ -100,11 +103,15 @@ button {
   border-radius: 3rem;
   border: solid 0.01px;
   color: white;
-  padding: 1rem 2.5rem;
+  padding: 1rem 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 0.8rem;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 button:hover {
@@ -113,6 +120,22 @@ button:hover {
     0 0 20px rgba(255, 255, 255, 0);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
+}
+
+@media (min-width: 768px) {
+  .home-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .button-1, .button-2, .button-3 {
+    width: auto;
+  }
+
+  button {
+    width: auto;
+    padding: 1rem 2.5rem;
+  }
 }
 
 @media (max-width: 559px) {
@@ -249,6 +272,11 @@ button {
   z-index: 2; /* Ensure controls are above the cards */
 }
 
+.carousel-indicators {
+  display: none !important;
+}
+
+
 // Card CSS
 @media (min-width: 576px) {
   .staff-card {
@@ -307,9 +335,24 @@ button {
   filter: grayscale(100%) brightness(0.7); /* Grayscale the image and dim it */
 }
 
+.image-container {
+  width: 100%;
+  padding-top: 133.33%; /* This creates a 3:4 aspect ratio (1080:1440) */
+  position: relative;
+  overflow: hidden;
+}
+
 .picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
   background-color: cyan;
 }
+
 
 .content {
   position: absolute;
@@ -355,14 +398,15 @@ button {
 }
 
 .staff-card:hover .bio {
-  opacity: 1;
-  max-height: none; /* Remove max-height to show full bio */
+    opacity: 0.8;
+    max-height: none; /* Remove max-height to show full bio */  
 }
 
-.staff-card:hover .bio {
+.staff-card:hover .picture {
+  filter: grayscale(50%) brightness(70%);
   opacity: 1;
-  max-height: 200px;
 }
+
 
 @media (min-width: 600px) {
   .staff-card {

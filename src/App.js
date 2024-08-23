@@ -39,12 +39,12 @@ function App() {
               </a>
             </div>
             <div className="button-2">
-              <a href="https://youtu.be/Ke8JjtxjXYg?si=s_C8m2JTOU5OsxbJ" target="_blank" rel="nooponer noreferrer">
+              <a href="https://www.youtube.com/watch?v=AZPyoTIquR8&list=PLezlz_6l_jm3UvP_Qx24KL8NqRanFIYDl&index=2" target="_blank" rel="nooponer noreferrer">
                 <button>I N F O - V I D E O</button>
               </a>
             </div>
             <div className="button-3">
-              <a href="https://www.youtube.com/playlist?list=PLezlz_6l_jm1Xx3KEluNr5NNycd_pkIBp" target="_blank" rel="nooponer noreferrer">
+              <a href="https://www.youtube.com/playlist?list=PLezlz_6l_jm3UvP_Qx24KL8NqRanFIYDl" target="_blank" rel="nooponer noreferrer">
                 <button>L E C T U R E S</button>
               </a>
             </div>

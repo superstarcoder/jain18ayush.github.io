@@ -8,13 +8,6 @@
       "picture": "RachaelWei"
     },
     {
-      "name": "Rayna",
-      "bio": "CS 124 Honors and Ariana Grande stan",
-      "languages": "Japanese, Mandarin",
-      "technical_areas": "Frontend, Web Development, Mobile Development",
-      "picture": "RaynaWuh"
-    },
-    {
       "name": "Jonah",
       "bio": "Junior majoring in CS. Interested in applying Computer Science to solve problems in finance, business, and technology.",
       "languages": "Indonesian",
@@ -22,102 +15,11 @@
       "picture": "JonahTjandra"
     },
     {
-      "name": "Eustis",
-      "bio": "Hi! I'm Eustis. I'm a Senior in Computer Engineering interested in Hardware Accelerators for ML.",
-      "languages": "",
-      "technical_areas": "ML, Full-Stack",
-      "picture": "WilliamEustis"
-    },
-    {
-      "name": "Neil",
-      "bio": "Wanna be CS+Chem",
-      "languages": "Vietnamese",
-      "technical_areas": "Backend, Webdev (Python)",
-      "picture": "NeilKaushikkar"
-    },
-    {
-      "name": "Charles",
-      "bio": "coffee",
-      "languages": "Chinese (Mandarin)",
-      "technical_areas": "Frontend, Backend, Full-Stack, Game Development",
-      "picture": "CharlesXu"
-    },
-    {
-      "name": "Sophia",
-      "bio": "Heyy \ud83d\udc4b My name is Sophia and I\u2019m a sophomore studying CS. I\u2019m passionate about using technology for social causes like education and healthcare!",
-      "languages": "mandarin (i'm okay at it though)",
-      "technical_areas": "Frontend (react, tailwind, css), fullstack (nextjs, backend server stuff), Spotify API, some NLP, machine learning",
-      "picture": "SophiaZhuang"
-    },
-    {
-      "name": "Dhruv",
-      "bio": "it's called football",
-      "languages": "Italian",
-      "technical_areas": "Java, C++, Flask, HTML & CSS Web Development, Full-Stack, MySQL, Spotify Data Analysis",
-      "picture": "DhruvSaligram"
-    },
-    {
-      "name": "Jane",
-      "bio": "Pygame enthusiast",
-      "languages": "spoken Mandarin and Cantonese, OK with written French",
-      "technical_areas": "game dev in pygame/python libraries, batch processing/characterization, interested in raycasting, GUI, visualization",
-      "picture": "ZiyinWang"
-    },
-    {
-      "name": "Vatsal Chheda",
-      "bio": "Grad @ MCS, interested in Tech and Hedge Funds. I'm Fan of PC Games and F1(Team LH)",
-      "languages": "Hindi",
-      "technical_areas": "Frontend (Product), Data Science/ML",
-      "picture": "SanjayChheda"
-    },
-    {
-      "name": "Saloni",
-      "bio": "cs major who likes books and computers and also other things",
-      "languages": "",
-      "technical_areas": "Frontend, Backend, Web Development, Python,",
-      "picture": "SaloniVaishnav"
-    },
-    {
-      "name": "Jacob",
-      "bio": "Sophomore in CS with a passion for learning new technologies",
-      "languages": "",
-      "technical_areas": "Frontend, App Development",
-      "picture": "JacobShalabi"
-    },
-    {
-      "name": "Nicole",
-      "bio": "CS major who loves art and spice",
-      "languages": "",
-      "technical_areas": "Game Development, Frontend",
-      "picture": "NicoleZheng"
-    },
-    {
-      "name": "Shreyas Jammi",
-      "bio": "physics major with a love hate relationship with data science and astrophysics",
-      "languages": "Telegu",
-      "technical_areas": "Data Science/ML, Physics, Astrophysics, Data Engineering",
-      "picture": "ShreyasJammi"
-    },
-    {
-      "name": "Nikhila",
-      "bio": "Coffee loving CS major interested in AI and sustainability",
-      "languages": "Telegu",
-      "technical_areas": "Data Science/ML, Backend",
-      "picture": "NikhilaPuppala"
-    },
-    {
       "name": "Yash",
       "bio": "CS + Astro Major who loves space, The Good Place and running",
       "languages": "Telugu",
       "technical_areas": "Frontend, App Development (Android Studio/React Native), Web Development (HTML/CSS), Java, C++, Python",
       "picture": "YaswantEjjagiri"
-    },
-    {
-      "name": "Taylor Ziegler",
-      "bio": "Hi, I'm a sophomore in cs and I am interested in web development.",
-      "languages": "",
-      "technical_areas": "web development, backend (infra), flask",
-      "picture": "TaylorZiegler"
     },
     {
       "name": "Anagha Balaji",
@@ -169,20 +71,6 @@
       "picture": "TanishqKhurana"
     },
     {
-      "name": "Prem Dhoot",
-      "bio": "jordan > lebron",
-      "languages": "Hindi, Marathi, Spanish",
-      "technical_areas": "Frontend (HTML/CSS/JavaScript), App Developement (Swift), Java, Python",
-      "picture": "PremDhoot"
-    },
-    {
-      "name": "Jieshu",
-      "bio": ":)",
-      "languages": "mandarin",
-      "technical_areas": "Data Science/ML, Infra",
-      "picture": "JieshuHuang"
-    },
-    {
       "name": "Rachel",
       "bio": "sophomore in cs + ling who loves taking naps and eating eggs",
       "languages": "",
@@ -204,32 +92,11 @@
       "picture": "KiranKaur"
     },
     {
-      "name": "Raghav",
-      "bio": "Coffee and Kotlin",
-      "languages": "Hindi",
-      "technical_areas": "Android Development (Java and Kotlin), Python (numpy, scikit), R, C++, React",
-      "picture": "RaghavSaini"
-    },
-    {
-      "name": "Spenser",
-      "bio": "Computer architecture is great",
-      "languages": "",
-      "technical_areas": "Embedded Software, Operating Systems",
-      "picture": "SpenserFong"
-    },
-    {
       "name": "Aayush",
       "bio": "Hi, I'm Aayush and I'm a sophomore studying CS+Econ",
       "languages": "",
       "technical_areas": "Blockchain, Data Science/ML, Frontend",
       "picture": "AayushBandopadhyay"
-    },
-    {
-      "name": "Priyanka Awatramani",
-      "bio": "Love dancing and coding!!",
-      "languages": "Hindi",
-      "technical_areas": "Frontend, Web Development, Java, SQL",
-      "picture": "PriyankaAwatramani"
     },
     {
       "name": "Avni",
