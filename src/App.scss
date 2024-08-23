@@ -212,12 +212,15 @@ button:hover {
   
   /* Add these styles for heading colors */
   h1 {
-    color: #a18c00; /* Change to your desired color */
+    // margin-top: 20px; /* Adjust the top margin as needed */
+    margin-bottom: 30px; /* Adjust the bottom margin as needed */
+    text-align: center; /* Optional: Center-align the text if needed */
+    color: rgb(214,117,50)
   }
-}
 
-.hall-of-fame {
-  margin-top: 20px;
+  #hof {
+    margin-top: 20px;
+  }
 }
 
 /* Custom button styles to override Bootstrap */
@@ -238,41 +241,12 @@ button {
 .card:hover button{
   background-color: #fff;
   color: #000;
-font-weight: bold;
-  }
-
-/* Add this CSS to your stylesheet */
-
-
-
-/* Added CSS for staff card container */
-
-
-
-
-
-
-
+  font-weight: bold;
+}
 
 /* Added CSS for carousel controls */
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-control-prev, .carousel-control-next {
   z-index: 2; /* Ensure controls are above the cards */
-}
-
-
-.chips-ta {
-  font-size: x-small;
-  margin: 10%;
-  background-color: #2d57b9;
-  color: rgb(255, 255, 255);
-}
-
-.chips-lang {
-  font-size: x-small;
-  margin: 10%;
-  background-color: #e56e15;
-  color: white;
 }
 
 // Card CSS
@@ -330,7 +304,7 @@ font-weight: bold;
 }
 
 .staff-card:hover:before {
-  filter: brightness(0.7);
+  filter: grayscale(100%) brightness(0.7); /* Grayscale the image and dim it */
 }
 
 .picture {
@@ -355,13 +329,14 @@ font-weight: bold;
 //   justify-content: center;
 // }
 
-.name {
+.staff-card .name {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
   margin-bottom: 10px;
   transition: transform 0.3s ease;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255,87,34);
+  border-radius: 15px;
+  color: whitesmoke
 }
 
 .bio {

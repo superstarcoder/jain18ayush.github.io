@@ -24,13 +24,6 @@ function App() {
 
   return (
     <div>
-      <nav className="top-nav">
-        <ul>
-          <li><a href="#home" className="nav-button">Home</a></li>
-          <li><a href="#staff" className="nav-button">Staff</a></li>
-          <li><a href="#hall-of-fame" className="nav-button">Hall of Fame</a></li>
-        </ul>
-      </nav>
       <div className="home-wrapper">
         <img className="background-image" src={homeBackground} alt="students" />
         <div className="home-main">
@@ -61,7 +54,7 @@ function App() {
       <div className="blue-section">
         <h1>Staff</h1>
         <StaffCarousel staffData={staffData} />
-        <h1>Hall of Fame</h1>
+        <h1 id='hof'>Hall of Fame</h1>
         <HallOfFame hofData={hofData} />
       </div>
     </div>
