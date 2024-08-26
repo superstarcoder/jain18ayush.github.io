@@ -1,6 +1,6 @@
 {
-  "short_name": "CS124 Honors",
-  "name": "CS124 Honors Site",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
