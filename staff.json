@@ -1,11 +1,9 @@
 {
   "staff": [
     {
-      "name": "Rachael",
-      "bio": "hope you enjoy the class! :)",
-      "languages": "Mandarin",
-      "technical_areas": "Backend, Data Science/ML, Full Stack, App Development",
-      "picture": "RachaelWei"
+      "name": "Ranjani",
+      "bio": "CS major and minoring in Econometrics. My main interests lie in MedTech and Bioinformatics!  I love dogs, music and fashion. ",
+      "picture": "RanjaniRamesh"
     },
     {
       "name": "Jonah",
