@@ -35,20 +35,26 @@ function App() {
             <div className="button-1">
               <a href="https://docs.google.com/document/d/1n2d0JRMaVCfLawWKrEew9_tCFBK4SFZK-diKE3fH-4A/edit#heading=h.4jjz7jor04lz"
                 target="_blank" rel="nooponer noreferrer">
-                <button>S Y L L A B U S</button>
+                <button>Syllabus</button>
               </a>
             </div>
             <div className="button-2">
               <a href="https://www.youtube.com/watch?v=AZPyoTIquR8&list=PLezlz_6l_jm3UvP_Qx24KL8NqRanFIYDl&index=2" target="_blank" rel="nooponer noreferrer">
-                <button>I N F O - V I D E O</button>
+                <button>Info Video</button>
               </a>
             </div>
             <div className="button-3">
               <a href="https://www.youtube.com/playlist?list=PLezlz_6l_jm3UvP_Qx24KL8NqRanFIYDl" target="_blank" rel="nooponer noreferrer">
-                <button>L E C T U R E S</button>
+                <button>Lectures</button>
+              </a>
+            </div>
+            <div className="button-4">
+              <a href="https://forms.gle/fVz1kz2xsXoiJP1N7" target="_blank" rel="nooponer noreferrer">
+                <button>Enrollment Form</button>
               </a>
             </div>
           </div>
+          <h2 style={{color: 'orange'}}>REGISTRATION IS NOW OPEN ON <a href="https://arc.net/l/quote/rnhizcto" target="_blank" rel="noopener noreferrer">SELF-SERVICE</a></h2>
         </div>
       </div>
       <div className="blue-section">

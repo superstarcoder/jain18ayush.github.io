@@ -87,11 +87,11 @@ h2 {
   gap: 1rem;
 }
 
-.button-2, .button-3 {
+.button-2, .button-3, .button-4 {
   margin-left: 0;
 }
 
-.button-1, .button-2, .button-3 {
+.button-1, .button-2, .button-3, .button-4 {
   width: 100%;
   max-width: 300px;
 }
@@ -128,7 +128,7 @@ button:hover {
     justify-content: center;
   }
 
-  .button-1, .button-2, .button-3 {
+  .button-1, .button-2, .button-3, .button-4 {
     width: auto;
   }
 
@@ -162,7 +162,7 @@ button:hover {
     border-width: 10rem;
   }
 
-  .button-2 .button-1 .button-3 {
+  .button-2 .button-1 .button-3, .button-4 {
     font-size: 1rem;
     margin-left: 0;
   }
@@ -180,11 +180,11 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 560px) {
-  .button-4 {
-    display: none;
-  }
-}
+// @media only screen and (min-width: 560px) {
+//   .button-4 {
+//     display: none;
+//   }
+// }
 
 .top-nav {
   background: #333;
