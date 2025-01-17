@@ -39,7 +39,7 @@ function App() {
               </a>
             </div>
             <div className="button-2">
-              <a href="https://www.youtube.com/watch?v=AZPyoTIquR8&list=PLezlz_6l_jm3UvP_Qx24KL8NqRanFIYDl&index=2" target="_blank" rel="nooponer noreferrer">
+              <a href="https://www.youtube.com/watch?v=eIJvoSkfCGc" target="_blank" rel="nooponer noreferrer">
                 <button>Info Video</button>
               </a>
             </div>
@@ -48,13 +48,12 @@ function App() {
                 <button>Lectures</button>
               </a>
             </div>
-            <div className="button-4">
+            {/* <div className="button-4">
               <a href="https://forms.gle/fVz1kz2xsXoiJP1N7" target="_blank" rel="nooponer noreferrer">
                 <button>Enrollment Form</button>
               </a>
-            </div>
+            </div> */}
           </div>
-          <h2 style={{color: 'orange'}}>REGISTRATION IS NOW OPEN ON <a href="https://arc.net/l/quote/rnhizcto" target="_blank" rel="noopener noreferrer">SELF-SERVICE</a></h2>
         </div>
       </div>
       <div className="blue-section">
