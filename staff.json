@@ -1,79 +1,109 @@
 {
-    "staff": [
-        {
-            "name": "Ranjani",
-            "bio": "CS major and minoring in Econometrics. My main interests lie in MedTech and Bioinformatics!  I love dogs, music and fashion. ",
-            "picture": "Ranjani"
-        },
-        {
-            "name": "Smriti",
-            "bio": "Hi, I'm Smriti and I'm a junior in CS. I'm excited to see what you all are going to work on this year!",
-            "picture": "Smriti"
-        },
-        {
-            "name": "Aaron",
-            "bio": "I'm a sophomore majoring in computer science. I'm most proficient in web development and related technologies like Node.js, ReactJS, Firebase, and other frameworks. I'm familiar with several programming languages including Java, JavaScript, Python, C++, and a bit of Kotlin.",
-            "picture": "Aaron"
-        },
-        {
-            "name": "Bill",
-            "bio": "As an A.I. Language Model...",
-            "picture": "Bill"
-        },
-        {
-            "name": "Keshat",
-            "bio": "Hello there! I am a Junior in Mechanical Engineering pursuing minors in CS and Business. I love to play badminton and watch movies and sitcoms. Looking forward to getting to know y\u2019all!",
-            "picture": "Keshat"
-        },
-        {
-            "name": "Davis",
-            "bio": "I'm a senior studying Computer Science! I also do research in machine learning and wireless sensing.",
-            "picture": "Davis"
-        },
-        {
-            "name": "Shagun",
-            "bio": "Hi! I am a Computer Science major who loves an overpriced pumpkin coffee, a good read, and dance.",
-            "picture": "Shagun"
-        },
-        {
-            "name": "Jack",
-            "bio": "I often sleep, occasionally code",
-            "picture": "Jack"
-        },
-        {
-            "name": "Roma",
-            "bio": "Hi! My name is Roma and I'm a junior majoring in Mathematics & Computer Science and minoring in business. I love cooking, going to the gym, and reading. I also love exploring new cafes/study spots around campus :) super excited to be a PM for 124H this year and to meet everyone!",
-            "picture": "Roma"
-        },
-        {
-            "name": "Naina",
-            "bio": "Hi! I'm Naina, a sophomore majoring in Computer Science and Statistics, with a strong interest in the intersection of CS and Finance. This fall will be my second semester as a Project Manager for CS 124 Honors. I'm excited to meet everyone and collaborate on new ideas!",
-            "picture": "Naina"
-        },
-        {
-            "name": "Somya",
-            "bio": "I am a sophomore in Computer Science. I have experience with Pygame, Backend  Development (Node.JS and Express.JS) and Blockchain. I like to sketch in my free time.",
-            "picture": "Somya"
-        },
-        {
-            "name": "Prisha",
-            "bio": "Hi! I'm Prisha, and I am a sophomore studying Computer Science and Mathematics. On campus, I'm involved in WCS, D-Lab, and STAT 107 (CA). Aside from CS & Math, I love biking, playing pickleball, and dancing. I'm excited to be a CS 124H PM this semester! ",
-            "picture": "Prisha"
-        },
-        {
-            "name": "Dhanish",
-            "bio": "Computer Science & Statistics Major who loves music, biking, and building cool things!",
-            "picture": "Dhanish"
-        },
-        {
-            "name": "Palak",
-            "bio": "Majoring in CS, minoring in business! Love to play soccer, hike, and eat yum foods!",
-            "picture": "Palak"
-        },
-        {
-            "name": "Pritika",
-            "bio": "CS major who has an unhealthy obsession with cats :P ",
-            "picture": "Pritika"
-        }
-    ]
-  }
+  "staff": [
+    {
+      "name": "Rachael",
+      "bio": "hope you enjoy the class! :)",
+      "languages": "Mandarin",
+      "technical_areas": "Backend, Data Science/ML, Full Stack, App Development",
+      "picture": "RachaelWei"
+    },
+    {
+      "name": "Jonah",
+      "bio": "Junior majoring in CS. Interested in applying Computer Science to solve problems in finance, business, and technology.",
+      "languages": "Indonesian",
+      "technical_areas": "Backend, Data Science/ML, Full-Stack, Finance",
+      "picture": "JonahTjandra"
+    },
+    {
+      "name": "Yash",
+      "bio": "CS + Astro Major who loves space, The Good Place and running",
+      "languages": "Telugu",
+      "technical_areas": "Frontend, App Development (Android Studio/React Native), Web Development (HTML/CSS), Java, C++, Python",
+      "picture": "YaswantEjjagiri"
+    },
+    {
+      "name": "Anagha Balaji",
+      "bio": "Hey! I'm Anagha, and I'm a sophomore studying CS :))",
+      "languages": "Tamil",
+      "technical_areas": "Data Science, ML",
+      "picture": "AnaghaBalaji"
+    },
+    {
+      "name": "Tim",
+      "bio": "Recovering caffeine connoisseur",
+      "languages": "Russian",
+      "technical_areas": "Backend (infra), Operating Systems, Data Science, App development",
+      "picture": "TimothyVitkin"
+    },
+    {
+      "name": "Ritul",
+      "bio": "Howdy! My name is Ritul Soni and my favorite sport is Ultimate Frisbee",
+      "languages": "Gujarati, Hindi",
+      "technical_areas": "Front End, cross mobile apps, web dev",
+      "picture": "RitulSoni"
+    },
+    {
+      "name": "Neil",
+      "bio": "Coffee connoisseur and raging Rustacean",
+      "languages": "",
+      "technical_areas": "Backend, Full Stack, API Development, Web Dev",
+      "picture": "NeilKaushikkar"
+    },
+    {
+      "name": "Shagun Varma",
+      "bio": "CS+Philosophy major!",
+      "languages": "Hindi",
+      "technical_areas": "Frontend, Full-Stack, App Development, Web Development, C++, C#, Javascript",
+      "picture": "ShagunVarma"
+    },
+    {
+      "name": "Nishita Amberkar",
+      "bio": "let me sleep or load me up with coffee",
+      "languages": "Hindi",
+      "technical_areas": "Product, Data Analysis",
+      "picture": "NishitaAmberkar"
+    },
+    {
+      "name": "Tanishq",
+      "bio": "professional premier league watcher",
+      "languages": "Hindi",
+      "technical_areas": "Backend, DS/ML, Cloud, Full-Stack",
+      "picture": "TanishqKhurana"
+    },
+    {
+      "name": "Rachel",
+      "bio": "sophomore in cs + ling who loves taking naps and eating eggs",
+      "languages": "",
+      "technical_areas": "app development, Java, C++, frontend",
+      "picture": "RachelShum"
+    },
+    {
+      "name": "Michael",
+      "bio": "senior in cs, i like edm, competitive games, and gym",
+      "languages": "",
+      "technical_areas": "Backend, Data Science/ML, Game Dev., Mobile Dev.",
+      "picture": "MichaelZou"
+    },
+    {
+      "name": "Kiran",
+      "bio": "A Junior in Industrial Engineering but is often referred to as a fake CS major",
+      "languages": "Hindi, Punjabi",
+      "technical_areas": "Full-Stack, Data Science, App Development, Web Design, ML",
+      "picture": "KiranKaur"
+    },
+    {
+      "name": "Aayush",
+      "bio": "Hi, I'm Aayush and I'm a sophomore studying CS+Econ",
+      "languages": "",
+      "technical_areas": "Blockchain, Data Science/ML, Frontend",
+      "picture": "AayushBandopadhyay"
+    },
+    {
+      "name": "Avni",
+      "bio": "wannabe tiktok vlogger",
+      "languages": "Hindi",
+      "technical_areas": "Frontend, Python, Java, Web Development",
+      "picture": "AvniMohan"
+    }
+  ]
+}
