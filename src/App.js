@@ -33,7 +33,7 @@ function App() {
           </h2>
           <div className="home-buttons">
             <div className="button-1">
-              <a href="https://docs.google.com/document/d/1n2d0JRMaVCfLawWKrEew9_tCFBK4SFZK-diKE3fH-4A/edit#heading=h.4jjz7jor04lz"
+              <a href="https://docs.google.com/document/d/1XYgeDH5MFW-UtvrA8TxcyitRCUzClEnK9cRALqInf2k/edit?tab=t.0#heading=h.4jjz7jor04lz"
                 target="_blank" rel="nooponer noreferrer">
                 <button>Syllabus</button>
               </a>
@@ -44,7 +44,7 @@ function App() {
               </a>
             </div>
             <div className="button-3">
-              <a href="https://www.youtube.com/playlist?list=PLezlz_6l_jm3UvP_Qx24KL8NqRanFIYDl" target="_blank" rel="nooponer noreferrer">
+              <a href="https://www.youtube.com/playlist?list=PLezlz_6l_jm2YhBsf631Co-zHC_i1MHLI" target="_blank" rel="nooponer noreferrer">
                 <button>Lectures</button>
               </a>
             </div>
